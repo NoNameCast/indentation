@@ -24,13 +24,13 @@
                 <ol class="header__list">
                     <h2 class="header__list-title">Содержание:</h2>
                     <li class="header__item">
-                        <a class="header__list-link" href="#">Отступ задается от предыдущего элемента к следующему</a>
+                        <a class="header__list-link" href="#first">Отступ задается от предыдущего элемента к следующему</a>
                     </li>
                     <li class="header__item">
-                        <a class="header__list-link" href="#">Отступ задается последнему возможному элементу в DOM-дереве</a>
+                        <a class="header__list-link" href="#second">Отступ задается последнему возможному элементу в DOM-дереве</a>
                     </li>
                     <li class="header__item">
-                        <a class="header__list-link" href="#">Для последнего элемента группы отступ обнуляется</a>
+                        <a class="header__list-link" href="#third">Для последнего элемента группы отступ обнуляется</a>
                     </li>
                 </ol>
             </div>
@@ -39,7 +39,7 @@
 <body>
     <main class="main">
         <div class="container">
-            <h2 class="first__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
+            <h2 class="first__title" id="first">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
                 <ul class="first__block-1">
                     <li class="first__img-1"></li>
                     <p class="first__text-1"><b>ВАЖНО:</b> <i>margin</i> всегда задают от предыдущего элемента к следующему.</p>
@@ -56,7 +56,7 @@
         </div>
 
         <div class="container">
-            <h2 class="second__title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
+            <h2 class="second__title" id="second">Отступ задается последнему возможному элементу в DOM-дереве</h2>
             <p class="second__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
             </p>
             <div class="second__img-1"></div>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="container">
-            <h2 class="third__title">Для последнего элемента группы отступ всегда обнуляется</h2>
+            <h2 class="third__title" id="third">Для последнего элемента группы отступ всегда обнуляется</h2>
 
             <p class="third__text">
                 Для наглядности возьмём наш предыдущий пример с рецептами

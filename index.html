@@ -40,14 +40,14 @@
         <section class="first__block">
             <h2 class="first__title" id="first">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
                 <div class="first__block-1">
-                    <div class="first__img-1"></div>
+                    <img src="img/4_cats.png" alt="4 кота в блоках" class="first__img-1">
                     <p class="first__text-1"><b>ВАЖНО:</b> <i>margin</i> всегда задают от предыдущего элемента к следующему.</p>
                     <p class="first__text-1">Свойство <i>margin</i> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется<i>margin-right</i> и <i>margin-bottom</i>.</p>
                     <p class="first__text-1">(!) Свойства <i>margin-left</i> и <i>margin-top</i> используются крайне редко.</p>
                     <p class="first__text-1">Для <i>padding</i> верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.</p>
                 </div>
                 <div class="first__block-2">
-                    <div class="first__img-2"></div>
+                    <img src="img/cat_first.png" alt="4 кота в блоках" class="first__img-2">
                     <p class="first__text-2">Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.</p>
                     <p class="first__text-2">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
                     <p class="first__text-2">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
@@ -58,19 +58,19 @@
             <h2 class="second__title" id="second">Отступ задается последнему возможному элементу в DOM-дереве</h2>
             <p class="second__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
             </p>
-            <div class="second__img-1"></div>
-            <div class="second__img-2"></div>
+            <img src="img/second_large.png" alt="большая картинка с кодом" class="second__img-1">
+            <img src="img/second_small.png" alt="пример отступов с рецептом" class="second__img-2">
             <p class="second__text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
             <div class="second__img-block">
-                <div class="second__img-3"></div>
-                <p class="second__text second__text-block">ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</p>
+                <img src="img/second_wide.png" alt="пример отступов с рецептом и кодом" class="second__img-3">
+                <p class="second__text-block">ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</p>
             </div>
             <p class="second__text">Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке lt;article&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
             </p>
             <p class="second__text">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
-            <div class="second__img-4"></div>
+            <img src="img/second_container.png" alt="пример с заголовком" class="second__img-4">
             <p class="second__text">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <i>section</i>. Именно для него задается <i>padding-top</i>, а не <i>div</i> с классом <i>container</i>. Свойства <i>margin</i>, которые стоят по умолчанию необходимо обнулить.</p>
-            <div class="second__img-5"></div>
+            <img src="img/second_cat.png" alt="пример с заголовком" class="second__img-5">
             <p class="second__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
         </section>
 
@@ -83,26 +83,26 @@
             <p class="third__text">
                 Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
             </p>
-            <div class="third__img third__img-1"></div>
+            <img src="img/third-1.png" alt="пример с рецептом" class="third__img third__img-1">
             <p class="third__text">
                 В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через <i>padding</i> для <i>section</i>. Я чаще всего задаю <i>padding</i> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
             </p>
-            <div class="third__img third__img-2"></div>
-            <div class="third__img third__img-3"></div>
-            <div class="third__img third__img-4"></div>
+            <img src="img/third-2.png" alt="пример с рецептом" class="third__img third__img-2">
+            <img src="img/third-3.png" alt="пример с кодом" class="third__img third__img-3">
+            <img src="img/third-4.png" alt="пример с кодом" class="third__img third__img-4">
             <p class="third__text">
                 Для большего понимания рассмотрим другой пример, который часто встречается на практике:
             </p>
-            <div class="third__img third__img-5"></div>
-            <div class="third__img third__img-6"></div>
+            <img src="img/third-5.png" alt="верхнее меню с логотипом" class="third__img third__img-5">
+            <img src="img/third-6.png" alt="верхнее меню с логотипом" class="third__img third__img-6">
             <p class="third__text">
                 Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:
             </p>
-            <div class="third__img third__img-7"></div>
+            <img src="img/third-7.png" alt="верхнее меню с логотипом" class="third__img third__img-7">
             <p class="third__text">
                 Советую использовать псевдоклассы :last-child чаще других, например так:
             </p>
-            <div class="third__img third__img-8"></div>
+            <img src="img/third-8.png" alt="верхнее меню с логотипом" class="third__img third__img-8">
         </section>
         
         <section>

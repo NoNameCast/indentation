@@ -36,12 +36,12 @@ p, a {
     font-size: 20px;
     line-height: 24px;
     margin: 0;
+    margin-bottom: 30px;
 }
 
 
 .container {
     max-width: 1080px;
-    padding: 0 30px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -61,12 +61,14 @@ p, a {
 
 
 .header__list-title {
-    padding: 25px 0 20px 40px;
+    padding: 25px 0 0 40px;
     font-size: 44px;
+    margin-bottom: 20px    ;
 }
 
 .header__item {
     margin-left: 15px;
+    padding-bottom: 10px;
 }
 
 .header__list-link {
@@ -76,49 +78,35 @@ p, a {
 
 .first__block-1 {
     width: 1080px;
-    height: 415px;
-    position: relative;
-    list-style: none;
+    min-height: 415px;
     padding-bottom: 30px;
 }
 
 .first__img-1 {
-    background: url(../img/4_cats.png) no-repeat;
-    position:absolute;
     width: 560px;
     height: 415px;
-    top:0px;
-    left:0px;
+    float: left;
 }
 
 .first__text-1 {
+    margin-left: 590px;
     width: 490px;
-    margin-left: 590px ;
-    margin-bottom: 10px;
-    padding-bottom: 30px;
+    min-height: 48px;
 }
 
 .first__block-2 {
     width: 1080px;
-    position: relative;
-    list-style: none;
-    padding-left: 0;
+    margin-bottom: 50px;
 }
 
 .first__img-2 {
-    background: url(../img/cat_first.png) no-repeat;
-    position:absolute;
-    width: 560px;
-    height: 415px;
-    top: 0px;
-    right:0px;
+    float: right;
 }
 
 .first__text-2 {
     width: 480px;
-    height: 72px;
-    margin-right: 590px ;
-    padding-bottom: 30px;
+    min-height: 72px;
+    margin-right: 600px;
 }
 
 .second__text {
@@ -126,26 +114,18 @@ p, a {
 }
 
 .second__img-1 {
-    background: url(../img/second_large.png) no-repeat;
-    width: 1079px;
-    height: 537px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .second__img-2 {
     display: block;
     margin: 0 auto;
-    background: url(../img/second_small.png) no-repeat;
-    width: 601.44px;
-    height: 449px;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .second__img-3 {
-    background: url(../img/second_wide.png) no-repeat;
-    width: 1077px;
-    height: 427px;
+    margin-bottom: 15px;
 }
 
 .second__img-block {
@@ -155,93 +135,55 @@ p, a {
 }
 
 .second__text-block {
-    padding: 15px 30px 15px 30px;
+    padding-left: 30px;
     color: #5E5E5E;
+    margin-bottom: 15px;
 }
 
 .second__img-4 {
     display: block;
     margin: 0 auto;
-    background: url(../img/second_container.png) no-repeat;
-    width: 966.11px;
-    height: 164px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .second__img-5 {
     display: block;
     margin: 0 auto;
-    background: url(../img/second_cat.png) no-repeat;
-    width: 1024.05px;
-    height: 504px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .third__text {
     margin-bottom: 30px;
 }
 
-.third__img {
-    padding-bottom: 30px;
-}
-
 .third__img-1 {
     display: block;
     margin: 0 auto;
-    background: url(../img/third-1.png) no-repeat;
-    width: 600px;
-    height: 600px;
 }
 
 .third__img-2 {
     display: block;
     margin: 0 auto;
-    background: url(../img/third-2.png) no-repeat;
-    width: 600px;
-    height: 600px;
 }
 
-.third__img-3 {
-    background: url(../img/third-3.png) no-repeat;
-    width: 1080px;
-    height: 530px;
-    padding-bottom: 0;
-}
-
-.third__img-4 {
-    background: url(../img/third-4.png) no-repeat;
-    width: 1080px;
-    height: 530px;
-}
-
-.third__img-5 {
-    background: url(../img/third-5.png) no-repeat;
-    width: 1080px;
-    height: 88px;
-}
 
 .third__img-6 {
     display: block;
     margin: 0 auto;
-    background: url(../img/third-6.png) no-repeat;
-    width: 806px;
-    height: 475px;
 }
 
 .third__img-7 {
     display: block;
     margin: 0 auto;
-    background: url(../img/third-7.png) no-repeat;
-    width: 317px;
-    height: 110px;
 }
 
 .third__img-8 {
     display: block;
     margin: 0 auto;
-    background: url(../img/third-8.png) no-repeat;
-    width: 500px;
-    height: 383px;
+}
+
+.third__img {
+    margin-bottom: 30px;
 }
 
 .end__block {
@@ -253,12 +195,16 @@ p, a {
 }
 
 .end__title {
-    padding: 25px 30px 19px;
+    font-size: 44px;
+    line-height: 120%;
+    padding-top: 25px;
+    padding-left: 30px;
+    margin-bottom: 19px;
 }
 
 .end__list {
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
 }
 
 .end__list li::before {
@@ -272,7 +218,8 @@ p, a {
 }
 
 .end__text {
-    padding: 0 29px 22px 31px;
+    padding-left: 30px;
+    margin-bottom: 22px;
 }
 
 

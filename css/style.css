@@ -9,15 +9,14 @@
 }
 
 
-h1 {
+.header__title {
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
     font-size: 60px;
     font-weight: 900;
     font-style: normal;
     line-height: 72px;
-    padding-bottom: 30px;
-    padding-top: 50px;
+    margin-bottom: 30px;
 }
 
 h2, h3, h4, h5 {
@@ -27,7 +26,7 @@ h2, h3, h4, h5 {
     font-weight: 900;
     font-size: 36px;
     line-height: 120%;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 p, a {
@@ -37,7 +36,6 @@ p, a {
     font-size: 20px;
     line-height: 24px;
     margin: 0;
-    padding-bottom: 30px;
 }
 
 
@@ -45,6 +43,12 @@ p, a {
     max-width: 1080px;
     padding: 0 30px;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__text {
+    margin-bottom: 30px;
 }
 
 .header__block {
@@ -55,8 +59,9 @@ p, a {
     margin-bottom: 20px;
 }
 
+
 .header__list-title {
-    padding: 25px 0 20px 0;
+    padding: 25px 0 20px 40px;
     font-size: 44px;
 }
 
@@ -71,9 +76,10 @@ p, a {
 
 .first__block-1 {
     width: 1080px;
+    height: 415px;
     position: relative;
     list-style: none;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .first__img-1 {
@@ -88,6 +94,7 @@ p, a {
 .first__text-1 {
     width: 490px;
     margin-left: 590px ;
+    margin-bottom: 10px;
     padding-bottom: 30px;
 }
 
@@ -112,6 +119,10 @@ p, a {
     height: 72px;
     margin-right: 590px ;
     padding-bottom: 30px;
+}
+
+.second__text {
+    margin-bottom: 30px;
 }
 
 .second__img-1 {
@@ -164,6 +175,10 @@ p, a {
     width: 1024.05px;
     height: 504px;
     padding-bottom: 30px;
+}
+
+.third__text {
+    margin-bottom: 30px;
 }
 
 .third__img {
@@ -243,7 +258,7 @@ p, a {
 
 .end__list {
     list-style: none;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .end__list li::before {
